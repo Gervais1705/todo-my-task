@@ -1,0 +1,22 @@
+.home-page {
+  background-image: url("https://images.unsplash.com/photo-1586282391077-58933c373376?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 15%;
+  padding-bottom: 25%;
+}
+.banner {
+  margin-left: 20%;
+  margin-right: 20%;
+  color: rgb(25, 82, 90);
+}
+
+@media screen and (max-width: 576px) {
+    .banner{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .home-page{
+        height: 100vh;
+    }
+}
